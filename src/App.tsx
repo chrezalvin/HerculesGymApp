@@ -3,6 +3,7 @@ import {
   IonApp,
   IonIcon,
   IonLabel,
+  IonPage,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
@@ -25,10 +26,10 @@ import {
   time,
   triangle,
 } from "ionicons/icons";
-import Tab1 from "./pages/Tab1";
-import Tab2 from "./pages/Tab2";
-import Tab3 from "./pages/Tab3";
-import Tab4 from "./pages/Tab4";
+import forumPage from "./pages/ForumPage";
+import latihanPage from "./pages/LatihanPage";
+import progressPage from "./pages/ProgressPage";
+import settingPage from "./pages/SettingPage";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -123,27 +124,27 @@ const App: React.FC = () => {
 
   const routes: CustomRoute[] = [
     {
-      path: "/tab1",
-      name: "Halaman Utama",
-      component: Tab1({}),
-      icon: home
-    },
-    {
-      path: "/tab2",
+      path: "/latihan",
       name: "Latihan",
-      component: Tab2({}),
+      component: latihanPage({}),
       icon: time
     },
     {
-      path: "/tab3",
-      name: "Laporan Kesehatan",
-      component: Tab3({}),
+      path: "/forum",
+      name: "Forum",
+      component: forumPage({}),
+      icon: home
+    },
+    {
+      path: "/progress",
+      name: "Progress",
+      component: progressPage({}),
       icon: statsChartOutline
     },
     {
-      path: "/tab4",
+      path: "/setting",
       name: "Pengaturan",
-      component: Tab4({
+      component: settingPage({
         darkMode: darkMode,
         toggleDarkMode: toggleDarkMode
       }),
@@ -158,6 +159,11 @@ const App: React.FC = () => {
           <IonRouterOutlet
             basePath="/tab1"
           >
+            <Route exact path="/test" key={"/test"}>
+              <IonPage>
+                <h1>Test</h1>
+              </IonPage>
+            </Route>
             {
               routes.map(route => (
                 <Route 

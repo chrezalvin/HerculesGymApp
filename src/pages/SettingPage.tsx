@@ -11,6 +11,11 @@ import {
   IonToggle,
 } from "@ionic/react";
 import {
+  flame,
+  home,
+  medal,
+  timer,
+  star,
   heart,
   water,
   settings,
@@ -19,7 +24,6 @@ import {
   heartCircle,
   moon,
 } from "ionicons/icons";
-import "./Tab4.css";
 
 interface I_SettingProps{
   darkMode: boolean;
@@ -36,7 +40,7 @@ interface Setting{
   }
 }
 
-const Tab4: React.FC<I_SettingProps> = (props: I_SettingProps) => {
+const SettingPage: React.FC<I_SettingProps> = (props: I_SettingProps) => {
   const settingList: Setting[] = [
     {
       name: "Pengaturan latihan", 
@@ -104,4 +108,4 @@ const Tab4: React.FC<I_SettingProps> = (props: I_SettingProps) => {
   );
 };
 
-export default Tab4;
+export default SettingPage;

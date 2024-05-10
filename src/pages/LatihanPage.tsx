@@ -1,26 +1,9 @@
-import {
-  IonContent,
-  IonHeader,
-  IonPage,
-  IonTitle,
-  IonToolbar,
-  IonGrid,
-  IonRow,
-  IonCol,
-  IonLabel,
-  IonCard,
-  IonCardHeader,
-  IonCardTitle,
-  IonCardContent,
-  IonText,
-  IonButton,
-  ToggleCustomEvent,
-} from "@ionic/react";
-import ExploreContainer from "../components/ExploreContainer";
-import "./Tab1.css";
-import React, { useState, useEffect } from "react";
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid, IonRow, IonCol, IonLabel, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonText, IonButton } from '@ionic/react';
+import ExploreContainer from '../components/ExploreContainer';
+import CardSlideChallenge from '../components/CardSlideChallenge';
+import React, { useState, useEffect } from 'react';
 
-const Tab1: React.FC = () => {
+const LatihanPage: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -62,27 +45,24 @@ const Tab1: React.FC = () => {
                   <IonCardTitle>Target Mingguan</IonCardTitle>
                 </IonCol>
                 <IonCol class="ion-text-end">
-                  <IonCardTitle style={{ color: "blue" }}>0/7</IonCardTitle>
+                  <IonCardTitle style={{ color: 'blue' }}>0/7</IonCardTitle>
                 </IonCol>
               </IonRow>
             </IonCardHeader>
             <IonCardContent>
               <IonRow>
                 {[...Array(7)].map((_, i) => (
-                  <IonCol
-                    key={i}
-                    style={{ display: "flex", justifyContent: "center" }}
-                  >
+                  <IonCol key={i} style={{ display: 'flex', justifyContent: 'center' }}>
                     <div
                       style={{
-                        border: "1px solid black",
-                        borderRadius: "50%",
-                        padding: "10px",
-                        width: "30px",
-                        height: "30px",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
+                        border: '1px solid black',
+                        borderRadius: '50%',
+                        padding: '10px',
+                        width: '30px',
+                        height: '30px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                       }}
                     >
                       {i + 1}
@@ -92,8 +72,11 @@ const Tab1: React.FC = () => {
               </IonRow>
             </IonCardContent>
           </IonCard>
-          <IonText style={{ fontWeight: "bold" }}>TANTANGAN</IonText>
-          <IonRow>
+          <IonText style={{ fontWeight: 'bold' }}>TANTANGAN</IonText>
+
+          <CardSlideChallenge />
+
+          {/* <IonRow>
             <IonCol>
               <IonCard
                 style={{
@@ -160,15 +143,14 @@ const Tab1: React.FC = () => {
                 </div>
               </IonCard>
             </IonCol>
-          </IonRow>
-          <IonText style={{ fontWeight: "bold" }}>PEMULA</IonText>
+          </IonRow> */}
+          <IonText style={{ fontWeight: 'bold' }}>PEMULA</IonText>
           <IonCard
             style={{
-              backgroundImage:
-                "url('https://functionalfittnessdailynews.com/wp-content/uploads/2022/03/Muscular-Fitness-Model-Working-Out-For-Six-Pack-Abs-Doing-Cable-Pull-Outs-Exercise-1024x567.jpg')",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
+              backgroundImage: "url('https://functionalfittnessdailynews.com/wp-content/uploads/2022/03/Muscular-Fitness-Model-Working-Out-For-Six-Pack-Abs-Doing-Cable-Pull-Outs-Exercise-1024x567.jpg')",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
             }}
           >
             <IonCardHeader>
@@ -178,11 +160,10 @@ const Tab1: React.FC = () => {
           </IonCard>
           <IonCard
             style={{
-              backgroundImage:
-                "url('https://th.bing.com/th/id/OIP.49Tm_lVNtoG9YGGwpQ_AOwHaEK?w=560&h=315&rs=1&pid=ImgDetMain')",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
+              backgroundImage: "url('https://th.bing.com/th/id/OIP.49Tm_lVNtoG9YGGwpQ_AOwHaEK?w=560&h=315&rs=1&pid=ImgDetMain')",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
             }}
           >
             <IonCardHeader>
@@ -190,14 +171,14 @@ const Tab1: React.FC = () => {
             </IonCardHeader>
             <IonCardContent>7 MENIt - 11 LATIHAN</IonCardContent>
           </IonCard>
-          <IonText style={{ fontWeight: "bold" }}>PEMULA</IonText>
+          <IonText style={{ fontWeight: 'bold' }}>PEMULA</IonText>
           <IonCard
             style={{
               backgroundImage:
                 "url('https://th.bing.com/th/id/R.1daf0477b0bff1e5cf6c0dd9f7c4cd88?rik=5%2b2Ot8bklAyQgA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0711%2f4830%2f6743%2farticles%2frear-delts.jpg%3fv%3d1674656896&ehk=Q7RUE%2fYZoilJwX6KvFd7CfTzk%2bnBm0IRbOEFGYNkp8U%3d&risl=&pid=ImgRaw&r=0')",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
             }}
           >
             <IonCardHeader>
@@ -207,11 +188,10 @@ const Tab1: React.FC = () => {
           </IonCard>
           <IonCard
             style={{
-              backgroundImage:
-                "url('https://farmaboom.com/wp-content/uploads/2018/10/The-number-of-approaches-in-the-exercises-bodybuilding_farmaboom.jpg')",
-              backgroundPosition: "center",
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
+              backgroundImage: "url('https://farmaboom.com/wp-content/uploads/2018/10/The-number-of-approaches-in-the-exercises-bodybuilding_farmaboom.jpg')",
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
             }}
           >
             <IonCardHeader>
@@ -225,4 +205,4 @@ const Tab1: React.FC = () => {
   );
 };
 
-export default Tab1;
+export default LatihanPage;
