@@ -1,9 +1,16 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid, IonRow, IonCol, IonLabel, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonText, IonButton } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import CardSlideChallenge from '../components/CardSlideChallenge';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { useHistory } from 'react-router';
+import challengeData from "../assets/challenges.json";
+
+const challenge = challengeData.challenges;
 
 const LatihanPage: React.FC = () => {
+  // usehistory to change page
+  const history = useHistory();
+
   return (
     <IonPage>
       <IonHeader>
@@ -74,7 +81,27 @@ const LatihanPage: React.FC = () => {
           </IonCard>
           <IonText style={{ fontWeight: 'bold' }}>TANTANGAN</IonText>
 
-          <CardSlideChallenge />
+
+        <Swiper
+          slidesPerView={1.5}
+        >
+          {
+          challenge.map(item => (
+              <SwiperSlide
+                onClick={
+                  () => {
+                    history.push("/timeline");
+                  }
+                }
+              >
+                <CardSlideChallenge
+                  title={item.title}
+                  description={item.description}
+                  image={item.image}
+                />
+              </SwiperSlide>))
+          }
+        </Swiper>
 
           {/* <IonRow>
             <IonCol>

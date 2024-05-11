@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Day - 1",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 2",
+        "listSet": [
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 3",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 4",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 5",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 6",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 7",
+        "listSet": [
+            {
+                "name": "Push-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Squat",
+                "description": "",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    }
+]

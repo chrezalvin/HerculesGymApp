@@ -1,0 +1,19 @@
+{
+    "challenges": [
+        {
+            "title": "Weightlifting",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "https://i.ibb.co/8711mv2/image-2024-05-10-215737619-removebg-preview.png"
+          },
+          {
+            "title": "Sit Up",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "https://www.pngplay.com/wp-content/uploads/1/Men-Exercising-PNG-Image.png"
+          },
+          {
+            "title": "Sit Up",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "https://www.pngplay.com/wp-content/uploads/1/Men-Exercising-PNG-Image.png"
+          }
+    ]
+}

@@ -52,6 +52,8 @@ import "./theme/variables.css";
 import { ReactNode, useEffect, useState } from "react";
 import UserThemePreference, { ThemePreference } from "./localStorage/userThemePreference";
 import { Storage } from "@ionic/storage";
+import Timer from "./pages/timer";
+import Timeline from "./pages/Timeline";
 
 setupIonicReact();
 
@@ -159,6 +161,9 @@ const App: React.FC = () => {
           <IonRouterOutlet
             basePath="/tab1"
           >
+            <Route exact path="/timeline" key="/timeline">
+              <Timeline />
+            </Route>
             <Route exact path="/test" key={"/test"}>
               <IonPage>
                 <h1>Test</h1>
