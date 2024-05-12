@@ -1,4 +1,4 @@
-import { Redirect, Route } from "react-router-dom";
+import { Redirect, Route, RouteComponentProps, withRouter } from "react-router-dom";
 import {
   IonApp,
   IonIcon,
@@ -26,10 +26,10 @@ import {
   time,
   triangle,
 } from "ionicons/icons";
-import forumPage from "./pages/ForumPage";
-import latihanPage from "./pages/LatihanPage";
-import progressPage from "./pages/ProgressPage";
-import settingPage from "./pages/SettingPage";
+import ForumPage from "./pages/ForumPage";
+import LatihanPage from "./pages/LatihanPage";
+import ProgressPage from "./pages/ProgressPage";
+import SettingPage from "./pages/SettingPage";
 
 /* Core CSS required for Ionic components to work properly */
 import "@ionic/react/css/core.css";
@@ -51,9 +51,12 @@ import "@ionic/react/css/display.css";
 import "./theme/variables.css";
 import { ReactNode, useEffect, useState } from "react";
 import UserThemePreference, { ThemePreference } from "./localStorage/userThemePreference";
+import { ChallengesRepository } from "./localStorage/challengesRepository";
+import { Challenge, Workout } from "./assets/challenges";
+import defaultChallenge from "./assets/challenges";
 import { Storage } from "@ionic/storage";
-import Timer from "./pages/timer";
-import Timeline from "./pages/Timeline";
+import TimelinePage from "./pages/Timeline";
+import { WorkoutRepository } from "./localStorage/workoutRepository";
 
 setupIonicReact();
 
@@ -66,9 +69,11 @@ interface CustomRoute{
 
 const storage = new Storage();
 
-const App: React.FC = () => {
-  const [darkMode, setDarkMode] = useState(false);
 
+const App: React.FC<RouteComponentProps<any>> = (props) => {
+  const [darkMode, setDarkMode] = useState(false);
+  const [challenge, setChallenge] = useState<Challenge[]>(defaultChallenge.challenges);
+  const [workouts, setWorkouts] = useState<Workout[]>(defaultChallenge.workout);
 
   const toggleDarkMode = () => {
     console.log("toggling dark mode");
@@ -93,6 +98,26 @@ const App: React.FC = () => {
     toggleDarkTheme(isDark);
   };
 
+  const onSetFinished = (challengeType: string, timelineIndex: number, setIndex: number) => {
+    const newChallenge = challenge?.map(ele => ele.type === challengeType ? {
+      ...ele,
+      repsData: ele.repsData.map((timeline, tIndex) => tIndex === timelineIndex ? {
+        ...timeline,
+        sets: timeline.listSet.map((set, sIndex) => sIndex === setIndex ? {
+          ...set,
+          finished: true
+        } : set)
+      } : timeline)
+    } : ele);
+
+    console.log("new challenge", newChallenge);
+
+    if(newChallenge){
+      setChallenge(newChallenge);
+      // (new ChallengesRepository(storage)).setChallenges(newChallenge);
+    }
+  }
+
   useEffect(() => {
     async function decideThemePreference() {
       // create the storage first
@@ -101,9 +126,13 @@ const App: React.FC = () => {
       let themePreference: ThemePreference;
 
       const userThemePreference = new UserThemePreference(storage);
+      const challengesRepository = new ChallengesRepository(storage);
+      const workoutRepository = new WorkoutRepository(storage);
 
       // check if the user has a theme preference
       const storedThemePreference = await userThemePreference.getThemePreference();
+      const storedChallenge = await challengesRepository.getChallenges();
+      const storedWorkout = await workoutRepository.getWorkouts();
 
       if(storedThemePreference)
         themePreference = storedThemePreference;
@@ -115,6 +144,16 @@ const App: React.FC = () => {
         // save the preference
         await userThemePreference.setThemePreference(themePreference);
       }
+
+      if(storedChallenge)
+        setChallenge(storedChallenge);
+      else
+        await challengesRepository.setDefaultData();
+
+      if(storedWorkout)
+        setWorkouts(storedWorkout);
+      else
+        await workoutRepository.setDefaultData();
 
       // Initialize the dark palette based on the initial
       // value of the prefers-color-scheme media query
@@ -128,28 +167,25 @@ const App: React.FC = () => {
     {
       path: "/latihan",
       name: "Latihan",
-      component: latihanPage({}),
+      component: <LatihanPage challenges={challenge} workouts={workouts} key="a"/>,
       icon: time
     },
     {
       path: "/forum",
       name: "Forum",
-      component: forumPage({}),
+      component: <ForumPage key="b"/>,
       icon: home
     },
     {
       path: "/progress",
       name: "Progress",
-      component: progressPage({}),
+      component: <ProgressPage key="c"/>,
       icon: statsChartOutline
     },
     {
       path: "/setting",
       name: "Pengaturan",
-      component: settingPage({
-        darkMode: darkMode,
-        toggleDarkMode: toggleDarkMode
-      }),
+      component: <SettingPage darkMode={darkMode} toggleDarkMode={toggleDarkMode} key="d" />,
       icon: settingsSharp
     }
   ];
@@ -158,16 +194,16 @@ const App: React.FC = () => {
     <IonApp>
       <IonReactRouter>
         <IonTabs>
-          <IonRouterOutlet
-            basePath="/tab1"
-          >
-            <Route exact path="/timeline" key="/timeline">
-              <Timeline />
-            </Route>
-            <Route exact path="/test" key={"/test"}>
-              <IonPage>
-                <h1>Test</h1>
-              </IonPage>
+          <IonRouterOutlet>
+            <Route 
+              exact 
+              path="/timeline/:challengeType" 
+              key="/timeline"
+              render={(props) => <TimelinePage {...props} 
+                challengeList={challenge ?? []}
+                onSetFinished={(challengeType: string, timelineIndex: number, setIndex: number) => onSetFinished(challengeType, timelineIndex, setIndex)}
+              />}
+            >
             </Route>
             {
               routes.map(route => (
@@ -184,7 +220,7 @@ const App: React.FC = () => {
           <IonTabBar slot="bottom">
             {
               routes.map(route => (
-                <IonTabButton tab={route.path} href={route.path} key={route.path}>
+                <IonTabButton tab={route.path} href={route.path}>
                   <IonIcon aria-hidden="true" icon={route.icon} />
                   <IonLabel>{route.name}</IonLabel>
                 </IonTabButton>

@@ -1,14 +1,17 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonGrid, IonRow, IonCol, IonLabel, IonCard, IonCardHeader, IonCardTitle, IonCardContent, IonText, IonButton } from '@ionic/react';
+import CardWorkout from '../components/cardWorkout';
 import CardSlideChallenge from '../components/CardSlideChallenge';
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useHistory } from 'react-router';
-import challengeData from "../assets/challenges.json";
+import { Challenge, Workout } from '../assets/challenges';
 
-const challenge = challengeData.challenges;
+interface LatihanPageProps{
+  challenges: Challenge[];
+  workouts: Workout[];
+}
 
-const LatihanPage: React.FC = () => {
-  // usehistory to change page
+const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
   const history = useHistory();
 
   return (
@@ -86,11 +89,11 @@ const LatihanPage: React.FC = () => {
           slidesPerView={1.5}
         >
           {
-          challenge.map(item => (
+          props.challenges.map(item => (
               <SwiperSlide
                 onClick={
                   () => {
-                    history.push("/timeline");
+                    history.push(`/timeline/${item.type}`);
                   }
                 }
               >
@@ -171,7 +174,17 @@ const LatihanPage: React.FC = () => {
               </IonCard>
             </IonCol>
           </IonRow> */}
-          <IonText style={{ fontWeight: 'bold' }}>PEMULA</IonText>
+          <IonText style={{ fontWeight: 'bold' }}>Body Builder</IonText>
+          {
+          props.workouts.map(item => (
+            <CardWorkout
+              durasi={item.durasi}
+              imageWO={item.imageWO}
+              judul={item.judul}
+            />
+          ))
+          }
+          <IonText style={{ fontWeight: 'bold' }}>Body Builder</IonText>
           <IonCard
             style={{
               backgroundImage: "url('https://functionalfittnessdailynews.com/wp-content/uploads/2022/03/Muscular-Fitness-Model-Working-Out-For-Six-Pack-Abs-Doing-Cable-Pull-Outs-Exercise-1024x567.jpg')",
@@ -198,7 +211,7 @@ const LatihanPage: React.FC = () => {
             </IonCardHeader>
             <IonCardContent>7 MENIt - 11 LATIHAN</IonCardContent>
           </IonCard>
-          <IonText style={{ fontWeight: 'bold' }}>PEMULA</IonText>
+          <IonText style={{ fontWeight: 'bold' }}>Daily Workout</IonText>
           <IonCard
             style={{
               backgroundImage:

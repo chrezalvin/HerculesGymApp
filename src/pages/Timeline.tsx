@@ -1,71 +1,57 @@
 import { IonBackButton, IonButton, IonButtons, IonContent, IonHeader, IonItem, IonList, IonModal, IonPage, IonTitle, IonToolbar } from "@ionic/react";
-import { useRef, useState } from "react";
-import Timer from "./timer";
-import repsData from "../assets/repsData.json";
+import { useEffect, useRef, useState } from "react";
+import Timer from "./Timer";
+import { RouteComponentProps } from "react-router";
+import {type Challenge, Timeline, Set } from "../assets/challenges";
 
-interface Set{
-    name: string,
-    duration: number,
-    description: string,
-    finished?: boolean,
+interface TimelineProps extends RouteComponentProps<{
+    challengeType: string;
+}>{
+    challengeList: Challenge[];
+    onSetFinished: (challengeType: string, timelineIndex: number, setIndex: number) => void;
 }
 
-interface Timeline{
-    name: string,
-    listSet: Set[],
-}
-
-const c_listTimeline: Timeline[] = repsData;
-
-const Timeline: React.FC = () => {
+const TimelinePage: React.FC<TimelineProps> = ({match, challengeList, onSetFinished}) => {
     const modal = useRef<HTMLIonModalElement>(null);
-    const [listTimeline, setListTimeline] = useState<Timeline[]>(c_listTimeline);
     const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
+    const [currentChallenge, setCurrentChallenge] = useState<Challenge>();
 
     // current timeline index for modal
-    const [currentTimeline, setCurrentTimeline] = useState<number | null>(null);
+    const [currentTimeline, setCurrentTimeline] = useState<number>(0);
+
+    useEffect(() => {
+        // get path name
+        const challengeType = match.params.challengeType;
+        const challenge: Challenge | undefined = challengeList.find((challenge) => challenge.type == challengeType);
+
+        if(challenge){
+            setCurrentChallenge(challenge);
+        }
+    }, []);
 
     function finishSet(timelineIndex: number, setIndex: number){
-        setListTimeline(
-            listTimeline.map((timeline, index) => {
-                if(index == timelineIndex){
-                    return {
-                        name: timeline.name,
-                        listSet: timeline.listSet.map((set, index) => {
-                            if(index == setIndex){
-                                return {
-                                    name: set.name,
-                                    description: set.description,
-                                    duration: set.duration,
-                                    finished: true,
-                                }
-                            }
-                            return set;
-                        })
-                    }
-                }
-                return timeline;
-            })
-        )
+        onSetFinished(match.params.challengeType, timelineIndex, setIndex);
     }
+
+    const timelines: Timeline[] | undefined = currentChallenge?.repsData;
 
     return (
         <IonPage>
             <IonHeader>
+                <IonTitle>
+                    {currentChallenge?.title}
+                </IonTitle>
                 <IonToolbar>
                     <IonButtons slot="start">
-                        <IonBackButton 
-                            text={"test"}
-                        />
+                        <IonBackButton />
                     </IonButtons>
                 </IonToolbar>
             </IonHeader>
             <IonContent fullscreen>
-                
                 <IonList>
                     {
-                        listTimeline.map((ele, index) => (
-                            <IonItem>
+                        timelines?.map((ele, index) => (
+                            <IonItem key={ele.name}>
                                 <IonButton
                                     style={{width: "100%", height: "100%"}}
                                     onClick={() => {
@@ -92,7 +78,7 @@ const Timeline: React.FC = () => {
                             slot="start"
                         >
                             <IonTitle>
-                                {currentTimeline == null ? "" : listTimeline[currentTimeline].name}
+                                {timelines?.[currentTimeline].name}
                             </IonTitle>
                             <IonButtons slot="start">
                                 <IonButton
@@ -109,12 +95,12 @@ const Timeline: React.FC = () => {
                         {
                             currentTimeline == null ? null : (
                                 <Timer 
-                                    timelineName={listTimeline[currentTimeline!].name}
+                                    timelineName={timelines?.[currentTimeline].name ?? ""}
                                     onSetFinished={(index) => {
                                         finishSet(currentTimeline!, index);
                                     }}
 
-                                    sets={listTimeline[currentTimeline!].listSet}
+                                    sets={timelines?.[currentTimeline].listSet ?? []}
                                 />
                             )
                         }
@@ -125,4 +111,4 @@ const Timeline: React.FC = () => {
     );
 }
 
-export default Timeline;
+export default TimelinePage;

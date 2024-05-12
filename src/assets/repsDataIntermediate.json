@@ -1,0 +1,189 @@
+[
+    {
+        "name": "Day - 1",
+        "listSet": [
+            {
+                "name": "Push-Up (6 Sets)",
+                "description": "Push-up termasuk salah satu aktivitas workout yang sangat efektif dalam mengencangkan otot. Selain dapat dilakukan dimana saja, push-up dapat membantu kamu melatih otot di bagian dada, lengan, trisep, dan bagian depan bahu. Melakukan push-up sangat mudah Cukup letakan kedua telapak tangan dan jari-jari kaki pada lantai guna menopang tubuh sehingga membentuk garis lurus dari kepala hingga kaki. Kemudian, tekuk siku untuk menurunkan tubuh ke lantai, kemudian dorong kembali ke atas.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Sit-Up (6 Sets)",
+                "description": "Sit-Up merupakan Sit up adalah jenis olahraga yang bermanfaat untuk mengencangkan otot perut dan menstabilkan core muscle, yaitu otot yang ada di punggung dan pinggul. Jika sit up dilakukan secara rutin, tentu abs bisa terbentuk sehingga bisa meningkatkan kepercayaan diri kamu. Untuk melakukan gerakan sit up dengan baik, lakukan beberapa gerakan halus, lambat, dan terkontrol di atas matras yang empuk. Kamu juga bisa meletakkan handuk di bawah tulang ekor sebagai penyangga agar tulang belakang sedikit melengkung saat berlatih. Berbaring telentang dengan lutut ditekuk dan kaki menapak di permukaan lantai. Tundukkan dagu ke dada untuk memanjangkan bagian belakang leher. Satukan jari-jari tangan di belakang kepala. Silangkan tangan dengan tangan di bahu berlawanan atau letakkan telapak tangan di samping tubuh. Angkat tubuh bagian atas ke arah paha sambil membuang napas. Turunkan tubuh kembali ke arah matras sambil menarik napas.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Jumping Jack (5 Sets)",
+                "description": "Jumping Jack merupakan salah satu jenis workout yang banyak digemari dan juga cocok untuk pemula. Dengan melakukan gerakan ini, kekuatan tubuh serta kardiovaskular jadi lebih terlatih. Selain itu, kinerja detak jantung lebih meningkat serta aliran darah berjalan lebih lancar ke seluruh tubuh. Ikuti langkah berikut Pertama, berdirilah tegak lurus dengan kedua kaki menempel. Turunkan kedua tangan lurus ke bawah dan letakkan sesuai posisi masing-masing. Lanjutkan dengan melompat sambil merenggangkan kedua kaki hingga terbuka lebar. Lakukan ini dalam satu gerakan. Bersamaan dengan melakukan gerakan di atas tadi, angkat kedua tangan di atas kepala seperti akan bertepuk tangan, Setelah itu kembali kepada posisi semula.",
+                "duration": 20,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 2 (Chest & Triceps)",
+        "listSet": [
+            {
+                "name": "Chest Dips (5 Sets)",
+                "description": " Chest dips adalah latihan angkat tubuh yang fokus pada pengembangan otot dada, trisep, dan bahu. Latihan ini melibatkan gerakan menurunkan dan mengangkat tubuh dengan menggunakan dua pegangan paralel atau stang yang biasanya disebut dip bars. Cara melakukannya. Pegang palang dip station dengan telapak tangan menghadap ke dalam dan lengan lurus. Turunkan tubuh Anda secara perlahan sampai siku Anda berada di sudut kanan. Pastikan siku tetap menempel di tubuh Anda dan tidak melebar. Dorong tubuh Anda kembali ke atas dan ulangi gerakannya.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Incline Push-Up (6 Sets)",
+                "description": "Incline push-up adalah variasi latihan push-up di mana tubuh bagian atas berada lebih tinggi daripada tubuh bagian bawah. Posisi push up ini membuat beban pada otot-otot dada, bahu, dan trisep menjadi lebih ringan daripada push-up tradisional di mana semua bagian tubuh sejajar di lantai. Incline push-up sering digunakan untuk latihan chest karena mampu membangun kekuatan otot-otot inti atas dan bagian atas tubuh seperti dada. Berikut ini langkah-langkah melakukan variasi incline push up yang benar. Letakkan kedua tangan Anda pada objek kokoh yang posisinya lebih tinggi dari kaki. Tarik kaki hingga benar-benar lurus. Pastikan juga tubuh Anda dalam posisi tegak lurus tanpa adanya lengkungan pada punggung. Sambil menarik napas, tekuk siku dan dekatkan dada pada objek yang Anda gunakan menjadi tumpuan. Tahan posisi tersebut selama beberapa detik. Setelah beberapa detik, buang napas dan dorong tubuh untuk kembali ke posisi semula.",
+                "duration": 20,
+                "finished": false
+            },
+            {
+                "name": "Decline Press-Up (5 Sets)",
+                "description": "Ini adalah salah satu latihan dada terbaik di gym, karena menempatkan penekanan otot dada bagian bawah, sehingga membantu membentuk dada Anda lebih bulat dan tegas. Cara melakukannya. Letakkan kaki di bangku dengan tangan di lantai di depan Anda. Turunkan tubuh ke bawah hingga dada Anda hampir menyentuh lantai. Tekan tubuh Anda kembali ke posisi awal sambil meremas dada Anda. Jeda sebentar di bagian atas sebelum mengulangi gerakan.",
+                "duration": 20,
+                "finished": false
+            
+            },
+            {
+                "name": "Triceps Dips (5 Sets)",
+                "description": "Tricep dips adalah gerakan yang melibatkan menopang tubuh dengan tangan dan lengan belakang, sambil menurunkan dan mengangkat tubuh untuk melatih trisep.",
+                "duration": 15,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 3 (Back)",
+        "listSet": [
+            {
+                "name": "Pull-up (5 Sets)",
+                "description": "Pull-up adalah gerakan mengangkat tubuh dari posisi gantung pada sebuah palang atau pull-up bar. Tarik tubuh ke atas hingga dagu berada di atas palang.",
+                "duration": 20,
+                "finished": false
+            },
+            {
+                "name": "Lateral Pulldown (5 Sets)",
+                "description": "Lateral pull down adalah latihan punggung yang menargetkan otot latissimus dorsi (lats). Otot ini terletak tepat di bawah ketiak hingga ke punggung. Lat pull down membantu mengisolasi otot ini dan memfokuskan latihan pada punggung. Adapun cara melakukan lat pull down adalah sebagai berikut. Duduk dengan nyaman di kursi, pastikan kaki rata di tanah. Sesuaikan tinggi palang mesin dengan tinggi badanmu. Rentangkan tangan sepenuhnya untuk mencapai palang. Pegang kuat palang dengan pegangan overhand dan grip yang lebar. Tarik palang ke bawah hingga setinggi dagumu dan jangan lupa libatkan otot punggung. Buang napas selama menarik sambil tetap pertahankan postur tubuh yang baik. Kembali perlahan ke posisi awal. Saat melakukannya di gym, rekomendasi alat untuk lat pull down adalah menggunakan mesin khusus latihan punggung. Alat ini memungkinkan penyesuaian resistensi sesuai dengan tingkat kekuatanmu.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Back Extension (6 Sets)",
+                "description": "Back extension adalah latihan yang melibatkan otot punggung dan inti. Latihan back extension dapat digunakan sebagai bagian dari program pelatihan untuk membangun kekuatan atau program rehabilitasi untuk pemulihan cedera.Semua gerakan back extension harus dilakukan secara perlahan dan terkendali. Hindari gerakan cepat, seperti menyentak ke satu arah, karena dapat mengakibatkan cedera. Jika kamu melakukan latihan back extension di gym, gunakanlah back extension machine yang dapat mendukung tubuh secara tepat selama latihan. Begini cara melakukan latihan back extension yang benar. Sesuaikan mesin sehingga bantalannya berada di bawah tulang pinggul. Pegang pegangan dan bungkukkan tubuh menghadap lantai. Naik perlahan, pastikan paha tetap di atas bantalan. Ulangin hingga selesai.",
+                "duration": 15,
+                "finished": false
+            
+            },
+            {
+                "name": "Rope Pull (4 Sets)",
+                "description": "Rope pull menawarkan latihan berdampak rendah yang sempurna untuk memperkuat area punggung dan core. Nama alat yang digunakan untuk latihan ini adalah rope pull machine. Cara menggunakan rope pull machine untuk latihan adalah sebagai berikut. Berdiri di depan mesin dan pegang tali. Tarik tali ke bawah dengan kecepatan tetap, disertai dengan variasi pegangan. Gunakan kaki untuk memberikan kekuatan. Pastikan untuk memilih rope pull machine yang berdaya cengkram baik untuk memaksimalkan hasil.",
+                "duration": 15,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 4 (Shoulder)",
+        "listSet": [
+            {
+                "name": "Dumbell Front Raise (6 Sets)",
+                "description": "Latihan ini merupakan gerakan yang efektif untuk mengisolasi otot deltoid anterior, atau bagian depan bahu. Ikuti langkah berikut. Berdiri, pegang dumbel di depanmu dengan telapak tangan menghadap ke kaki. Pertahankan siku dan lutut sedikit tertekuk saat kamu mengangkat lengan lurus di depanmu setinggi bahu. Perlahan kembali ke posisi awal. Ulangi gerakan hingga selesai sesuai yang ditentukan.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Dumbell Lateral Raises (5 Sets)",
+                "description": "Mengangkat secara lateral mengaktifkan deltoid posterior dan otot punggung atasmu. Ikuti langkah berikut. Berdiri, pegang dumbel dengan telapak tangan saling berhadapan. Pertahankan siku dan lutut sedikit tertekuk, angkat lengan keluar dari sisi tubuh dengan lengkungan lebar hingga setinggi bahu. Perlahan kembali ke posisi awal. Ulangi gerakan hingga selesai sesuai yang ditentukan.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Reverse Fly (5 Sets)",
+                "description": "Latihan ini menargetkan deltoid posterior, serta otot rhomboid dan otot trapezius tengah di punggung atasmu. Ikuti langkah berikut. Berdiri, pegang dumbel dengan telapak tangan saling berhadapan. Tekuk tubuhmu ke depan, membentuk sudut 45 derajat dengan lantai. Dengan siku sedikit ditekuk, angkat dumbel ke atas dan ke samping hingga sejajar dengan lantai. Saat kamu mengangkat beban, fokuslah untuk menyatukan tulang belikatmu. Ulangi gerakan hingga selesai sesuai yang ditentukan.",
+                "duration": 15,
+                "finished": false
+            },
+            {
+                "name": "Serratus Shrug (4 Sets)",
+                "description": "Latihan serratus shrug dapat membantu mengembangkan otot-otot di atas tulang rusuk dan di bawah dada. Latihan ini juga meningkatkan kekuatan dan stabilitas di seluruh bahu. Ikuti langkah berikut. Pegang tiang penahan lalu luruskan lengan hingga tubuh terangkat seluruhnya. Kunci sikut Anda. Tekuk lutut lalu silangkan kedua bagian ankle Anda. Letakan beban tubuh sehingga berada di antara bahu. Tahan posisi lengan, lalu tekan bahu hingga ke bawah ketika mengangkat tubuh bagian atas. Break selama 5 detik, lalu kembali pada posisi awal dan ulangi.",
+                "duration": 20,
+                "finished": false
+            }
+        ]
+    },
+    {
+        "name": "Day - 5 (Legs)",
+        "listSet": [
+            {
+                "name": "Barbell Squats (4 Sets)",
+                "description": "uk. Angkat kedua lengan ke samping hingga sejajar dengan lantai. Perlahan kembali ke posisi awal. Ulangi hingga selesai",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Romanian DeadLift (4 Sets)",
+                "description": "Otot yang bekerja adalah paha depan, paha belakang, dan bokong. Sesuaikan platform dengan tinggi badan. Dari posisi duduk, kamu harus bisa meletakkan kedua kaki di atas platform dengan lutut sedikit ditekuk.",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Front Squats",
+                "description": "Otot yang bekerja di latihan ini adalah paha depan, bokong, paha belakang, punggung atas, dan inti. Cara melakukannya, mulai dengan barbel yang masih terpasang, ambil posisi di bawah palangnya dan posisikan di sisi depan bahu. Dengan telapak tangan menghadap ke atas dan siku ke depan, letakkan ujung jari di bawah palang, selebar bahu.",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 6 ",
+        "listSet": [
+            {
+                "name": "Diamond Push-Up",
+                "description": "Anda mungkin sudah sering melakukan push-up. Namun, apakah Anda sudah pernah memvariasikan gerakan push-up Anda? Yups, salah satunya dengan melakukan diamond push-up, yang menggunakan penempatan tangan terpusat untuk pendekatan yang berbeda. Cara melakukannya seperti berikut. Ambil posisi push-up, lalu pusatkan tangan Anda ke tengah membentuk diamond. Angkat lutut Anda ke posisi plank. Jaga agar otot perut Anda tetap aktif dan biarkan siku Anda menekuk. Perlahan, turunkan dada Anda ke lantai, push dengan ekstensi penuh. Ulangi hingga selesai.",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Forearm Plank",
+                "description": "Forearm plank sebenarnya hampir mirip dengan gerakan plank pada umumnya. Untuk melakukan gerakan forearm plank, kamu bisa ikuti langkah-langkah di bawah ini!Posisikan kedua lengan dan kedua jari-jari kaki menempel pada lantai untuk menopang tubuh. Tekuk kedua lutut hingga menyentuh lantai. Pastikan punggung bagian bawah dan pinggul tidak turun. Tahan selama 30 detik hingga 1 menit. Ulangin hingga selesai.",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Abdominal Crunch",
+                "description": "Olahraga abdominal crunch merupakan salah satu jenis olahraga yang saat ini di gunakan oleh banyak orang di Indonesia. Jika berbicara tentang gerakan dari abdominal crunch sendiri sebenarnya sama dengan gerakan sit up biasa. Namun perbedaannya jika sit up Anda akan mengangkat seluruh punggung Anda dari posisi tidur atau berbaring ke posisi duduk, namun jika abdominal crunch ini Anda hanya mengangkat sebagian punggung Anda dan menahannya dalam jangka waktu yang sudah di tentukan dalam tahapan melakukan abdominal crunch. Olahraga ini sendiri memiliki banyak manfaat untuk tubuh, namun manfaat utamanya adalah menguatkan otot perut, paha, dan juga bahu. Adapun cara melakukan abdominal crunch adalah Posisikan tubuh berbaring telentang dengan menekuk lutut dan kaki lurus berbentuk 90 derajat. Lalu, letakkan tangan di kepala, hindari mengunci jari-jari atau mendorong kepala ke atas. Dorong punggung ke lantai. Geser dagu sedikit sehingga meninggalkan sedikit ruang antara dagu dan dada. Angkat bahu sekitar 10 cm dari lantai. Tahan sejenak, lalu perlahan-lahan kembali ke bawah. Ulangi hingga selesai",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    },
+    {
+        "name": "Day - 7 (Legs Day)",
+        "listSet": [
+            {
+                "name": "Squats",
+                "description": "Gerakan ini akan membentuk otot bokong dan kaki. Ambil sebuah barbel seberat 5 kilogram dan letakkan di pangkuan tangan di depan dada. Badan harus tegak dan perlahan-lahan menurunkan badan jongkok kebawah.",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Leg Extentions Quadriceps",
+                "description": "Duduk di mesin leg extension, angkat beban dengan menekuk lutut hingga kaki lurus, kemudian turunkan kembali dengan kontrol.",
+                "duration": 10,
+                "finished": false
+            },
+            {
+                "name": "Leg Extentions Hamstring",
+                "description": "Duduk atau berbaring di mesin leg curl, angkat beban dengan menekuk lutut ke arah bokong, kemudian turunkan kembali dengan kontrol.",
+                "duration": 10,
+                "finished": false
+            
+            }
+        ]
+    }
+]
