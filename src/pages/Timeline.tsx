@@ -38,10 +38,10 @@ const TimelinePage: React.FC<TimelineProps> = ({match, challengeList, onSetFinis
     return (
         <IonPage>
             <IonHeader>
-                <IonTitle>
+                <IonToolbar color="warning">
+                <IonTitle >
                     {currentChallenge?.title}
                 </IonTitle>
-                <IonToolbar>
                     <IonButtons slot="start">
                         <IonBackButton />
                     </IonButtons>
@@ -52,7 +52,7 @@ const TimelinePage: React.FC<TimelineProps> = ({match, challengeList, onSetFinis
                     {
                         timelines?.map((ele, index) => (
                             <IonItem key={ele.name}>
-                                <IonButton
+                                <IonButton color="warning"
                                     style={{width: "100%", height: "100%"}}
                                     onClick={() => {
                                         // set the current index here

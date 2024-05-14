@@ -1,9 +1,8 @@
-import { Redirect, Route, RouteComponentProps, withRouter } from "react-router-dom";
+import {Route, RouteComponentProps } from "react-router-dom";
 import {
   IonApp,
   IonIcon,
   IonLabel,
-  IonPage,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
@@ -12,19 +11,11 @@ import {
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
 import {
-  compass,
-  ellipse,
+  calculator,
   home,
-  paperPlaneSharp,
-  people,
-  searchOutline,
-  settings,
   settingsSharp,
-  square,
-  squareSharp,
   statsChartOutline,
   time,
-  triangle,
 } from "ionicons/icons";
 import ForumPage from "./pages/ForumPage";
 import LatihanPage from "./pages/LatihanPage";
@@ -57,6 +48,8 @@ import defaultChallenge from "./assets/challenges";
 import { Storage } from "@ionic/storage";
 import TimelinePage from "./pages/Timeline";
 import { WorkoutRepository } from "./localStorage/workoutRepository";
+import BmiCalculator from "./pages/BmiCalculator";
+import BmrCalculator from "./pages/BmrCalculator";
 
 setupIonicReact();
 
@@ -74,6 +67,8 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
   const [darkMode, setDarkMode] = useState(false);
   const [challenge, setChallenge] = useState<Challenge[]>(defaultChallenge.challenges);
   const [workouts, setWorkouts] = useState<Workout[]>(defaultChallenge.workout);
+  const [totalTimeSpent, setTotalTimeSpent] = useState<number>(0);
+  const [totalCaloriesBurned, setTotalCaloriesBurned] = useState<number>(0);
 
   const toggleDarkMode = () => {
     console.log("toggling dark mode");
@@ -103,10 +98,19 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
       ...ele,
       repsData: ele.repsData.map((timeline, tIndex) => tIndex === timelineIndex ? {
         ...timeline,
-        sets: timeline.listSet.map((set, sIndex) => sIndex === setIndex ? {
-          ...set,
-          finished: true
-        } : set)
+        sets: timeline.listSet.map((set, sIndex) => {
+          if(sIndex === setIndex){
+            setTotalTimeSpent(totalTimeSpent + set.duration);
+            setTotalCaloriesBurned(totalCaloriesBurned + set.kalori);
+
+            return {
+              ...set,
+              isFinished: true
+            }
+          }
+            
+          return set;
+        })
       } : timeline)
     } : ele);
 
@@ -129,11 +133,14 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
       const challengesRepository = new ChallengesRepository(storage);
       const workoutRepository = new WorkoutRepository(storage);
 
+      // challengesRepository.setDefaultData();
+      // workoutRepository.setDefaultData();
+      
       // check if the user has a theme preference
       const storedThemePreference = await userThemePreference.getThemePreference();
       const storedChallenge = await challengesRepository.getChallenges();
       const storedWorkout = await workoutRepository.getWorkouts();
-
+      
       if(storedThemePreference)
         themePreference = storedThemePreference;
       else{
@@ -145,9 +152,11 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
         await userThemePreference.setThemePreference(themePreference);
       }
 
+      // check if data is available at storage
       if(storedChallenge)
         setChallenge(storedChallenge);
       else
+        // if not, then set up a new default data
         await challengesRepository.setDefaultData();
 
       if(storedWorkout)
@@ -167,7 +176,13 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
     {
       path: "/latihan",
       name: "Latihan",
-      component: <LatihanPage challenges={challenge} workouts={workouts} key="a"/>,
+      component: (
+        <LatihanPage 
+          challenges={challenge} 
+          workouts={workouts}
+          key="a"
+        />
+      ),
       icon: time
     },
     {
@@ -179,7 +194,14 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
     {
       path: "/progress",
       name: "Progress",
-      component: <ProgressPage key="c"/>,
+      component: (
+        <ProgressPage 
+          totalCalories={totalCaloriesBurned}
+          totalWorkout={0}
+          totalTimeSecond={totalTimeSpent}
+          key="c"
+        />
+      ),
       icon: statsChartOutline
     },
     {
@@ -203,6 +225,20 @@ const App: React.FC<RouteComponentProps<any>> = (props) => {
                 challengeList={challenge ?? []}
                 onSetFinished={(challengeType: string, timelineIndex: number, setIndex: number) => onSetFinished(challengeType, timelineIndex, setIndex)}
               />}
+            >
+            </Route>
+            <Route 
+              exact 
+              path="/bmiCalculator" 
+              key="/bmiCalculator"
+              component={BmiCalculator}
+            >
+            </Route>
+            <Route 
+              exact 
+              path="/bmrCalculator" 
+              key="/bmrCalculator"
+              component={BmrCalculator}
             >
             </Route>
             {

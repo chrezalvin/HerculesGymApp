@@ -11,11 +11,6 @@ import {
   IonToggle,
 } from "@ionic/react";
 import {
-  flame,
-  home,
-  medal,
-  timer,
-  star,
   heart,
   water,
   settings,
@@ -86,7 +81,7 @@ const SettingPage: React.FC<I_SettingProps> = (props: I_SettingProps) => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="warning">
           <IonTitle>Pengaturan</IonTitle>
         </IonToolbar>
       </IonHeader>

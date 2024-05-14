@@ -1,29 +1,31 @@
-import weightlifting from "./images/weightlift.png";
 import repsDataBeginner  from "./repsDataBeginner.json";
 import repsDataIntermediate  from "./repsDataIntermediate.json";
 import repsDataAdvance  from "./repsDatadvanced.json";
+import beginnerGym from "./images/BeginnerGym.png";
+import intermediateGym from "./images/Intermediate_GYM.png";
+import advancedGym from "./images/weightlift.png";
 
 const data = {
     "challenges": [
           {
             "title": "Beginner Training",
             "type": "Beginner",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "image": weightlifting,
+            "description": "Tantangan bagi pemula",
+            "image": beginnerGym,
             "repsData": repsDataBeginner
           },
           {
             "title": "Intermediate  Training",
             "type": "Intermediate",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "image": "https://www.pngplay.com/wp-content/uploads/1/Men-Exercising-PNG-Image.png",
+            "description": "Tantangan bagi menengah",
+            "image": intermediateGym,
             "repsData": repsDataIntermediate
           },
           {
             "title": "Advanced Training",
             "type": "Advance",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "image": "https://www.pngplay.com/wp-content/uploads/1/Men-Exercising-PNG-Image.png",
+            "description": "Tantangan bagi profesional",
+            "image": advancedGym,
             "repsData": repsDataAdvance
           }
     ],

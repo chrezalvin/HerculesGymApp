@@ -1,4 +1,4 @@
-import { IonRow, IonCol, IonCard, IonCardSubtitle, IonImg } from '@ionic/react';
+import { IonRow, IonCol, IonCard, IonCardSubtitle, IonImg, IonCardTitle } from '@ionic/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -14,14 +14,19 @@ interface CardSlideChallengeProps {
 
 const CardSlideChallenge: React.FC<CardSlideChallengeProps> = (props: CardSlideChallengeProps) => {
   return (
-    <IonCard className="ion-padding" style={{"height": "100%", "borderRadius": 50, "color" : "white"}}>
+    <IonCard 
+      color="warning" 
+      className="ion-padding" 
+      style={{"height": "100%", "borderRadius": 25, "color" : "white"}}      
+    >
+      
       <IonRow>
-        <IonCol>
-          <h1>{props.title}</h1>
-          <IonCardSubtitle>{props.description}</IonCardSubtitle>
-        </IonCol>
-        <IonCol size='10'>
+        <IonCol size='6'>
           <IonImg style={{height: "100%"}} src={props.image} />
+        </IonCol>
+        <IonCol size='6'>
+          <IonCardTitle>{props.title}</IonCardTitle>
+          <IonCardSubtitle>{props.description}</IonCardSubtitle>
         </IonCol>
       </IonRow>
     </IonCard>

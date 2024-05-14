@@ -6,19 +6,22 @@
                 "name": "Push-Up (5 Sets)",
                 "description": "Push-up termasuk salah satu aktivitas workout yang sangat efektif dalam mengencangkan otot. Selain dapat dilakukan dimana saja, push-up dapat membantu kamu melatih otot di bagian dada, lengan, trisep, dan bagian depan bahu. Melakukan push-up sangat mudah Cukup letakan kedua telapak tangan dan jari-jari kaki pada lantai guna menopang tubuh sehingga membentuk garis lurus dari kepala hingga kaki. Kemudian, tekuk siku untuk menurunkan tubuh ke lantai, kemudian dorong kembali ke atas.",
                 "duration": 15,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Sit-Up (4 Sets)",
                 "description": "Sit-Up merupakan Sit up adalah jenis olahraga yang bermanfaat untuk mengencangkan otot perut dan menstabilkan core muscle, yaitu otot yang ada di punggung dan pinggul. Jika sit up dilakukan secara rutin, tentu abs bisa terbentuk sehingga bisa meningkatkan kepercayaan diri kamu. Untuk melakukan gerakan sit up dengan baik, lakukan beberapa gerakan halus, lambat, dan terkontrol di atas matras yang empuk. Kamu juga bisa meletakkan handuk di bawah tulang ekor sebagai penyangga agar tulang belakang sedikit melengkung saat berlatih. Berbaring telentang dengan lutut ditekuk dan kaki menapak di permukaan lantai. Tundukkan dagu ke dada untuk memanjangkan bagian belakang leher. Satukan jari-jari tangan di belakang kepala. Silangkan tangan dengan tangan di bahu berlawanan atau letakkan telapak tangan di samping tubuh. Angkat tubuh bagian atas ke arah paha sambil membuang napas. Turunkan tubuh kembali ke arah matras sambil menarik napas.",
                 "duration": 15,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Jumping Jack (5 Sets)",
                 "description": "Jumping Jack merupakan salah satu jenis workout yang banyak digemari dan juga cocok untuk pemula. Dengan melakukan gerakan ini, kekuatan tubuh serta kardiovaskular jadi lebih terlatih. Selain itu, kinerja detak jantung lebih meningkat serta aliran darah berjalan lebih lancar ke seluruh tubuh. Ikuti langkah berikut Pertama, berdirilah tegak lurus dengan kedua kaki menempel. Turunkan kedua tangan lurus ke bawah dan letakkan sesuai posisi masing-masing. Lanjutkan dengan melompat sambil merenggangkan kedua kaki hingga terbuka lebar. Lakukan ini dalam satu gerakan. Bersamaan dengan melakukan gerakan di atas tadi, angkat kedua tangan di atas kepala seperti akan bertepuk tangan, Setelah itu kembali kepada posisi semula.",
                 "duration": 20,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -30,26 +33,30 @@
                 "name": "Bench Press (4 Sets)",
                 "description": "Bench press adalah salah satu gerakan yang paling umum dilakukan untuk melatih otot dada. Ini dilakukan dengan berbaring di atas bangku dan mendorong barbell ke atas dari dada hingga lengan lurus, kemudian menurunkannya kembali ke dada.",
                 "duration": 12,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Incline Press (4 Sets)",
                 "description": "Incline bench press adalah bentuk bench press di mana bangku miring dengan sudut sekitar 30-45 derajat. Ini membantu mengarahkan latihan lebih pada bagian atas otot dada (clavicular head).",
                 "duration": 12,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Cable Flyes (4 Sets)",
                 "description": "Dalam latihan biceps curl, berdiri tegak dengan kaki selebar bahu dan memegang sepasang dumbbell di kedua tangan. Pastikan siku ditekuk sedikit dan lengan lurus ke bawah, dengan telapak tangan menghadap ke depan. Angkat dumbbell ke arah bahu dengan memutar pergelangan tangan sehingga telapak tangan berada di depan bahu, lalu perlahan turunkan kembali ke posisi awal dengan kontrol. Pastikan menjaga tubuh tetap stabil, hanya lengan yang bergerak selama latihan ini.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             },
             {
                 "name": "Triceps Dips (4 Sets)",
                 "description": "Tricep dips adalah gerakan yang melibatkan menopang tubuh dengan tangan dan lengan belakang, sambil menurunkan dan mengangkat tubuh untuk melatih trisep.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -61,31 +68,36 @@
                 "name": "Pull-up (5 Sets)",
                 "description": "Pull-up adalah gerakan mengangkat tubuh dari posisi gantung pada sebuah palang atau pull-up bar. Tarik tubuh ke atas hingga dagu berada di atas palang.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Chin-up (5 Sets)",
                 "description": "Chin-up adalah gerakan latihan kekuatan yang melibatkan mengangkat tubuh dengan menggunakan otot-otot lengan, bahu, dan punggung. Berbeda dengan pull-up, yang memerlukan pegangan telapak tangan menghadap ke luar (overhand grip), chin-up dilakukan dengan memegang bar atau pegangan dengan telapak tangan menghadap ke arah tubuh (underhand grip). Ini memberikan penekanan utama pada otot bicep, namun juga melibatkan otot-otot punggung, bahu, dan lengan lainnya.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Seated Cable Row (5 Sets)",
                 "description": "Seated cable row adalah gerakan menggunakan mesin cable row dengan duduk untuk menarik beban ke arah tubuh, menargetkan otot punggung.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Lateral Pulldown (5 Sets)",
                 "description": "Lat pulldown adalah gerakan menggunakan mesin lat pulldown untuk menarik beban dari atas ke bawah, menargetkan otot punggung.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Barbell Rows (5 Sets)",
                 "description": "Barbell rows adalah gerakan mengangkat barbell dari lantai dengan posisi berdiri untuk melatih otot punggung.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -97,31 +109,36 @@
                 "name": "Shoulder Press (5 Sets)",
                 "description": "Shoulder press adalah gerakan yang melibatkan menekan beban dari atas kepala hingga lengan lurus, melatih otot deltoid (otot bahu).",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Lateral Raises (5 Sets)",
                 "description": "Lateral raises adalah gerakan yang melibatkan mengangkat beban ke samping tubuh dari posisi bahu untuk melatih bagian samping otot deltoid.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Upright Rows (5 Sets)",
                 "description": "Upright rows adalah gerakan yang melibatkan menarik beban ke atas depan tubuh hingga bahu, melatih otot deltoid dan trapezius.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Front Raises (5 Sets)",
                 "description": "Front raises adalah gerakan yang melibatkan mengangkat beban dari depan tubuh ke depan bahu untuk melatih otot deltoid bagian depan.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Arnold Press (5 Sets)",
                 "description": "Arnold press adalah gerakan yang melibatkan rotasi bahu saat melakukan shoulder press, melatih otot deltoid dari berbagai sudut.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -133,19 +150,22 @@
                 "name": "Barbell Squats (4 Sets)",
                 "description": "Gerakan lateral raises adalah salah satu latihan yang efektif untuk mengisolasi otot deltoid posterior, atau bagian belakang bahu. Berikut adalah cara melakukan lateral raise dengan benar. Berdiri dengan kaki selebar bahu. Pegang sepasang dumbel di sisi tubuh Anda dengan telapak tangan menghadap ke bawah. Pertahankan siku sedikit ditekuk. Angkat kedua lengan ke samping hingga sejajar dengan lantai. Perlahan kembali ke posisi awal. Ulangi hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Romanian DeadLift (4 Sets)",
                 "description": "Otot yang bekerja adalah paha depan, paha belakang, dan bokong. Sesuaikan platform dengan tinggi badan. Dari posisi duduk, kamu harus bisa meletakkan kedua kaki di atas platform dengan lutut sedikit ditekuk.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Front Squats (4 Sets)",
                 "description": "Otot yang bekerja di latihan ini adalah paha depan, bokong, paha belakang, punggung atas, dan inti. Cara melakukannya, mulai dengan barbel yang masih terpasang, ambil posisi di bawah palangnya dan posisikan di sisi depan bahu. Dengan telapak tangan menghadap ke atas dan siku ke depan, letakkan ujung jari di bawah palang, selebar bahu.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -157,32 +177,36 @@
                 "name": "Cable Flyes with Chains (5 Sets)",
                 "description": "Cable flyes with chains melibatkan gerakan seperti dumbbell flyes, tetapi dengan menggunakan rantai sebagai tambahan beban.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Upright Rows (5 Sets)",
                 "description": "Upright rows adalah gerakan yang melibatkan menarik beban ke atas depan tubuh hingga bahu, melatih otot deltoid dan trapezius.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Decline Bench Press (5 Sets)",
                 "description": "Decline bench press melibatkan melakukan bench press dengan bangku miring ke bawah, menekankan otot dada bagian bawah.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Lateral Pulldown (5 Sets)",
                 "description": "Decline bench press melibatkan melakukan bench press dengan bangku miring ke bawah, menekankan otot dada bagian bawah.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Abdominal Crunch (5 Sets)",
                 "description": "Olahraga abdominal crunch merupakan salah satu jenis olahraga yang saat ini di gunakan oleh banyak orang di Indonesia. Jika berbicara tentang gerakan dari abdominal crunch sendiri sebenarnya sama dengan gerakan sit up biasa. Namun perbedaannya jika sit up Anda akan mengangkat seluruh punggung Anda dari posisi tidur atau berbaring ke posisi duduk, namun jika abdominal crunch ini Anda hanya mengangkat sebagian punggung Anda dan menahannya dalam jangka waktu yang sudah di tentukan dalam tahapan melakukan abdominal crunch. Olahraga ini sendiri memiliki banyak manfaat untuk tubuh, namun manfaat utamanya adalah menguatkan otot perut, paha, dan juga bahu. Adapun cara melakukan abdominal crunch adalah Posisikan tubuh berbaring telentang dengan menekuk lutut dan kaki lurus berbentuk 90 derajat. Lalu, letakkan tangan di kepala, hindari mengunci jari-jari atau mendorong kepala ke atas. Dorong punggung ke lantai. Geser dagu sedikit sehingga meninggalkan sedikit ruang antara dagu dan dada. Angkat bahu sekitar 10 cm dari lantai. Tahan sejenak, lalu perlahan-lahan kembali ke bawah. Ulangi hingga selesai",
                 "duration": 10,
-                "finished": false
-            
+                "finished": false,
+                "kalori": 1000
             }
         ]
     },
@@ -193,32 +217,36 @@
                 "name": "Hammer Curl (5 Sets)",
                 "description": "Hammer curl adalah gerakan yang mirip dengan dumbbell curl, tetapi dengan tangan menghadap ke arah tubuh sepanjang gerakan.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "barbell Curl (5 Sets)",
                 "description": "Barbell curl adalah gerakan mengangkat barbell dengan tangan lurus ke arah bahu, melatih otot bicep.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Preacher Curl (5 Sets)",
                 "description": "Preacher curl adalah gerakan yang dilakukan di atas alat preacher bench, melatih otot bicep dengan sudut yang stabil.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Triceps Pushdowns (5 Sets)",
                 "description": "Preacher curl adalah gerakan yang dilakukan di atas alat preacher bench, melatih otot bicep dengan sudut yang stabil.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Concentration Curl (5 Sets)",
                 "description": "Concentration curl adalah gerakan mengangkat dumbbell dengan satu tangan sambil duduk, fokus pada kontraksi otot bicep.",
                 "duration": 10,
-                "finished": false
-            
+                "finished": false,
+                "kalori": 1000
             }
         ]
     }

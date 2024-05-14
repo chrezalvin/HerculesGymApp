@@ -11,11 +11,11 @@ interface CardWorkoutProps {
 const CardWorkout: React.FC<CardWorkoutProps> = (props: CardWorkoutProps) => {
   return (
     <>
-      <IonCard onClick={() => {
+      <IonCard color="warning" onClick={() => {
         console.log('click');
       }}
       >
-        <IonCardHeader style={{backgroundImage: "url({props.imageWO})"}}>
+        <IonCardHeader style={{}}>
           <IonCardTitle>{props.judul}</IonCardTitle>
         </IonCardHeader>
         <IonCardContent>
@@ -32,10 +32,10 @@ const CardWorkout: React.FC<CardWorkoutProps> = (props: CardWorkoutProps) => {
           position: 'relative',
           overflow: 'hidden',
         }}>
-        <IonCardHeader>
+        {/* <IonCardHeader>
           <IonText style={{ fontWeight: 'bold', position: 'absolute', top: '36%', fontSize: "2.0em", color: "#fff"}}>{props.judul}</IonText>
           <IonCardTitle>{props.durasi}</IonCardTitle>
-        </IonCardHeader>
+        </IonCardHeader> */}
         </IonImg>
       </IonCard>
     </>

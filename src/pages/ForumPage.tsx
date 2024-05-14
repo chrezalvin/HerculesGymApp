@@ -12,13 +12,12 @@ import {
   IonRow,
   IonCol,
 } from "@ionic/react";
-import ExploreContainer from "../components/ExploreContainer";
 
 const ForumPage: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
+      <IonHeader color="warning">
+        <IonToolbar color="warning">
           <IonTitle>Temukan</IonTitle>
         </IonToolbar>
       </IonHeader>

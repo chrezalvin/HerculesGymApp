@@ -1,4 +1,7 @@
 import {
+  IonButton,
+  IonAccordion,
+  IonText,
   IonCard,
   IonCardContent,
   IonCardHeader,
@@ -16,12 +19,20 @@ import ExploreContainer from "../components/ExploreContainer";
 import { IonIcon } from "@ionic/react";
 import { flame, home, medal, timer } from "ionicons/icons";
 import { fireEvent } from "@testing-library/dom";
+import { useState } from "react";
 
-const ProgressPage: React.FC = () => {
+interface ProgressPageProps{
+  totalWorkout: number;
+  totalCalories: number;
+  totalTimeSecond: number;
+}
+
+const ProgressPage: React.FC<ProgressPageProps> = (props: ProgressPageProps) => {
+
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
+        <IonToolbar color="warning">
           <IonTitle>Laporkan</IonTitle>
         </IonToolbar>
       </IonHeader>
@@ -36,7 +47,9 @@ const ProgressPage: React.FC = () => {
                     icon={medal}
                     style={{ fontSize: "50px", color: "blue" }}
                   />
-                  <h2>0</h2>
+                  <h2>
+                    {props.totalWorkout}
+                  </h2>
                 </div>
                 <p>LATIHAN</p>
               </IonLabel>
@@ -48,7 +61,9 @@ const ProgressPage: React.FC = () => {
                     icon={flame}
                     style={{ fontSize: "50px", color: "blue" }}
                   />
-                  <h2>0</h2>
+                  <h2>
+                    {props.totalCalories / 1000}
+                  </h2>
                 </div>
                 <p>KKAL</p>
               </IonLabel>
@@ -60,7 +75,9 @@ const ProgressPage: React.FC = () => {
                     icon={timer}
                     style={{ fontSize: "50px", color: "blue" }}
                   />
-                  <h2>0</h2>
+                  <h2>
+                    {props.totalTimeSecond / 60}
+                  </h2>
                 </div>
                 <p>MENIT</p>
               </IonLabel>
@@ -132,6 +149,15 @@ const ProgressPage: React.FC = () => {
             </IonCardContent>
           </IonCard>
         </IonGrid>
+        <IonContent>
+          <IonText>Kalkulator</IonText>
+        <IonButton color="warning" expand="block" routerLink="/bmiCalculator">
+          Bmi Calculator
+        </IonButton>
+        <IonButton color="warning" expand="block" routerLink="/bmrCalculator">
+          Bmr Calculator
+        </IonButton>
+        </IonContent>
       </IonContent>
     </IonPage>
   );

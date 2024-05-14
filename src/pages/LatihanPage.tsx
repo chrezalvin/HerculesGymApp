@@ -16,8 +16,8 @@ const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
 
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
+      <IonHeader color="warning">
+        <IonToolbar color="warning">
           <IonTitle class="judul">Latihan Rumahan</IonTitle>
         </IonToolbar>
       </IonHeader>
@@ -28,26 +28,6 @@ const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
           </IonToolbar>
         </IonHeader>
         <IonGrid>
-          <IonRow class="garis">
-            <IonCol>
-              <IonLabel class="ion-text-center">
-                <h2>0</h2>
-                <p>LATIHAN</p>
-              </IonLabel>
-            </IonCol>
-            <IonCol>
-              <IonLabel class="ion-text-center">
-                <h2>0</h2>
-                <p>KKAL</p>
-              </IonLabel>
-            </IonCol>
-            <IonCol>
-              <IonLabel class="ion-text-center">
-                <h2>0</h2>
-                <p>MENIT</p>
-              </IonLabel>
-            </IonCol>
-          </IonRow>
           <IonCard>
             <IonCardHeader>
               <IonRow>
@@ -83,10 +63,9 @@ const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
             </IonCardContent>
           </IonCard>
           <IonText style={{ fontWeight: 'bold' }}>TANTANGAN</IonText>
-
-
         <Swiper
           slidesPerView={1.5}
+          className='ion-padding-vertical'
         >
           {
           props.challenges.map(item => (
@@ -174,7 +153,7 @@ const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
               </IonCard>
             </IonCol>
           </IonRow> */}
-          <IonText style={{ fontWeight: 'bold' }}>Body Builder</IonText>
+          <IonText style={{ fontWeight: 'bold', paddingTop: "10px"}}>Body Builder</IonText>
           {
           props.workouts.map(item => (
             <CardWorkout
@@ -184,33 +163,6 @@ const LatihanPage: React.FC<LatihanPageProps> = (props: LatihanPageProps) => {
             />
           ))
           }
-          <IonText style={{ fontWeight: 'bold' }}>Body Builder</IonText>
-          <IonCard
-            style={{
-              backgroundImage: "url('https://functionalfittnessdailynews.com/wp-content/uploads/2022/03/Muscular-Fitness-Model-Working-Out-For-Six-Pack-Abs-Doing-Cable-Pull-Outs-Exercise-1024x567.jpg')",
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <IonCardHeader>
-              <IonCardTitle>OTOT PERUT PEMULA</IonCardTitle>
-            </IonCardHeader>
-            <IonCardContent>20 MENIT - 16 LATIHAN</IonCardContent>
-          </IonCard>
-          <IonCard
-            style={{
-              backgroundImage: "url('https://th.bing.com/th/id/OIP.49Tm_lVNtoG9YGGwpQ_AOwHaEK?w=560&h=315&rs=1&pid=ImgDetMain')",
-              backgroundPosition: 'center',
-              backgroundSize: 'cover',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <IonCardHeader>
-              <IonCardTitle>DADA PEMULA</IonCardTitle>
-            </IonCardHeader>
-            <IonCardContent>7 MENIt - 11 LATIHAN</IonCardContent>
-          </IonCard>
           <IonText style={{ fontWeight: 'bold' }}>Daily Workout</IonText>
           <IonCard
             style={{

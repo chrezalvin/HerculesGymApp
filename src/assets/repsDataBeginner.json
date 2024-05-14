@@ -6,19 +6,22 @@
                 "name": "Push-Up",
                 "description": "Push-up termasuk salah satu aktivitas workout yang sangat efektif dalam mengencangkan otot. Selain dapat dilakukan dimana saja, push-up dapat membantu kamu melatih otot di bagian dada, lengan, trisep, dan bagian depan bahu. Melakukan push-up sangat mudah Cukup letakan kedua telapak tangan dan jari-jari kaki pada lantai guna menopang tubuh sehingga membentuk garis lurus dari kepala hingga kaki. Kemudian, tekuk siku untuk menurunkan tubuh ke lantai, kemudian dorong kembali ke atas.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Sit-Up",
                 "description": "Sit-Up merupakan Sit up adalah jenis olahraga yang bermanfaat untuk mengencangkan otot perut dan menstabilkan core muscle, yaitu otot yang ada di punggung dan pinggul. Jika sit up dilakukan secara rutin, tentu abs bisa terbentuk sehingga bisa meningkatkan kepercayaan diri kamu. Untuk melakukan gerakan sit up dengan baik, lakukan beberapa gerakan halus, lambat, dan terkontrol di atas matras yang empuk. Kamu juga bisa meletakkan handuk di bawah tulang ekor sebagai penyangga agar tulang belakang sedikit melengkung saat berlatih. Berbaring telentang dengan lutut ditekuk dan kaki menapak di permukaan lantai. Tundukkan dagu ke dada untuk memanjangkan bagian belakang leher. Satukan jari-jari tangan di belakang kepala. Silangkan tangan dengan tangan di bahu berlawanan atau letakkan telapak tangan di samping tubuh. Angkat tubuh bagian atas ke arah paha sambil membuang napas. Turunkan tubuh kembali ke arah matras sambil menarik napas.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Jumping Jack",
                 "description": "Jumping Jack merupakan salah satu jenis workout yang banyak digemari dan juga cocok untuk pemula. Dengan melakukan gerakan ini, kekuatan tubuh serta kardiovaskular jadi lebih terlatih. Selain itu, kinerja detak jantung lebih meningkat serta aliran darah berjalan lebih lancar ke seluruh tubuh. Ikuti langkah berikut Pertama, berdirilah tegak lurus dengan kedua kaki menempel. Turunkan kedua tangan lurus ke bawah dan letakkan sesuai posisi masing-masing. Lanjutkan dengan melompat sambil merenggangkan kedua kaki hingga terbuka lebar. Lakukan ini dalam satu gerakan. Bersamaan dengan melakukan gerakan di atas tadi, angkat kedua tangan di atas kepala seperti akan bertepuk tangan, Setelah itu kembali kepada posisi semula.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -30,20 +33,22 @@
                 "name": "Wall Sit",
                 "description": "Wall Sit merupakan suatu latihan yang dilakukan dengan cara menyandarkan punggung Anda ke sebuah tembok sambil menekuk lutut seakan-akan sedang duduk, lalu menahannya selama beberapa saat. Bisa dibilang, gerakan yang juga disebut sebagai wall squat ini umumnya ditujukan untuk membentuk kekuatan isometrik. Manfaat yang bisa didapatkan ketika melakukan wall sit saat workout di rumah adalah membantu membangun kekuatan otot, di samping membantu meningkatkan daya tahan pada otot di bagian bawah tubuh. Untuk melakukan wall sit, ikuti langkah-langkah ini Pertama, berdirilah dengan menghadapkan punggung ke dinding sekitar setengah meter dari dinding. Setelah itu, geserlah punggung ke bawah dalam keadaan tetap menempel pada dinding sampai kaki menekuk hingga membentuk sudut 90 derajat. Ketika melakukan gerakan tersebut, pastikan bahu, punggung atas serta belakang kepala tetap dalam keadaan lurus dan tetap menempel dinding. Kedua kaki harus menapak kokoh di tanah dengan berat yang merata. Jika diperlukan, luruskan kaki ke depan secara bergantian. Tahanlah hingga 30 detik atau sesuai dengan kekuatan kamu.",
                 "duration": 15,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Plank",
                 "description": "Lakukan plank dengan memulai dari posisi berbaring telungkup, lengan ditekuk dan bertumpu pada siku. Angkat tubuh sehingga berada pada posisi datar dengan berat badan didukung oleh lengan bawah dan kaki. Pastikan tubuh membentuk garis lurus dari kepala hingga tumit, dan jaga inti tubuh tetap teraktivasi. Tahan posisi ini selama waktu yang ditentukan.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Biceps Curl",
                 "description": "Dalam latihan biceps curl, berdiri tegak dengan kaki selebar bahu dan memegang sepasang dumbbell di kedua tangan. Pastikan siku ditekuk sedikit dan lengan lurus ke bawah, dengan telapak tangan menghadap ke depan. Angkat dumbbell ke arah bahu dengan memutar pergelangan tangan sehingga telapak tangan berada di depan bahu, lalu perlahan turunkan kembali ke posisi awal dengan kontrol. Pastikan menjaga tubuh tetap stabil, hanya lengan yang bergerak selama latihan ini.",
                 "duration": 10,
-                "finished": false
-            
+                "finished": false,
+                "kalori": 1000
             }
         ]
     },
@@ -54,19 +59,22 @@
                 "name": "Bench Press",
                 "description": "Bench Press adalah salah satu angkatan dalam powerlifting, dimana seorang lifter berbaring pada sebuah bangku khusus, dan lalu melakukan gerakan menurunkan barbel dari rak hingga mencapai dada, sehingga kedua tangan membentuk siku, kemudian mendorongnya vertikal hingga kedua tangan menjadi lurus kembali. Pola tersebut diulang dalam Repetisi (Reps) dan Set tertentu, guna membentuk massa otot dan kekuatan pada tubuh bagian atas. Ikuti langkah-langkah berikut untuk melakukan bench press dengan tepat Berbaring di bangku, di bawah rak yang menahan palang. Sejajarkan mata Anda dengan bagian depan rak barbel. Bokong, bahu, dan kepala rata di bangku dengan tulang belakang netral. Kaki Anda juga rata di lantai dan relatif lebar. Jika kaki kurang nyaman rata di lantai, gunakan balok atau pelat beban di bawah kaki, alih-alih meletakkan kaki di bangku, karena bisa mengurangi stabilitas. Tarik tulang belikat ke belakang dengan bahu membulat. Pegang barbel dengan pegangan overhand, letakkan ibu jari di bagian luar kepalan tangan. Lengan sedikit lebih lebar dari lebar bahu dan sudut lengan atas sekitar 45 derajat ke tubuh. Lepaskan barbel dari rak, kunci siku Anda. Ingat, jangan pindahkan palang secara melengkung dari rak langsung ke posisi dada! Tarik napas saat menurunkan palang ke dada, di garis puting. Buang napas saat Anda menekan palang di atas dada sambil merentangkan lengan. Jangan menatap palang, fokus pada langit-langit! Kemudian, turunkan palang hingga tepat di atas dada Anda. Ini adalah posisi awal untuk bench press berikutnya.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Incline Press",
                 "description": "Incline dumbbell press merupakan gerakan latihan menekan dada di atas bangku dengan sudut 30-45 derajat yang ditujukan untuk melatih kelompok otot dada, bahu, dan trisep. Cara melakukannya Bersandar di bangku miring dengan kaki rata di lantai. Mulailah dengan memegang dumbel atau barbel tepat di atas bahu. Posisikan telapak tangan ke depan, dengan ibu jari melingkari pegangannya. Tekan beban ke atas tepat di atas mata Anda atau sedikit lebih tinggi, dengan siku memanjang hingga 45 derajat. Tarik napas dan turunkan dumbel atau barbel secara perlahan dan dengan terkontrol sampai menyentuh atau mencapai tepat di atas dada Anda. Siku dan pergelangan tangan Anda berada di samping. Ulangi gerakan hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Triceps Rope Pushdown",
                 "description": "Merupakan Latihan yang biasanya dilakukan dengan menggunakan mesin kabel (cable machine) di pusat kebugaran. Latihan ini sendiri mencatat sekitar 74 persen aktivasi otot trisep. Inti pada gerakan ini yaitu menggerakkan beban ke arah bawah dengan menggunakan tali sehingga otot trisep dapat benar-benar bekerja. Untuk alternatif alat pada latihan rope pushdown yaitu menggunakan resistance band yang bisa diikat di ambang pintu. Cara melakukan rope pushdown Berdirilah di depan cable machine, pegang bar dengan siku ditekuk menyerupai sudut 90 derajat, dan tempatkan siku tepat di sebelah batang tubuh, Turunkan lengan ke bawah dan rentangkan tali sedikit ke arah kanan dan kiri guna merasakan kontraksi trisep, Ulangi gerakan hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -78,19 +86,22 @@
                 "name": "Lateral Pulldown",
                 "description": "Pull down lateral adalah latihan gabungan yang melatih seluruh rantai posterior. Ini adalah latihan yang bagus untuk membangun kekuatan, stabilitas, dan mobilitas di sekitar bahu dan punggung. Latihan ini harus dilakukan dengan bentuk yang benar dan gerakan yang terkontrol untuk menghindari cedera. Cara melakukannya cukup mudah  Langkah pertama duduklah di depan mesin kabel pulldown untuk memulai latihan. Raih dan genggam seerat mungkin palang (pastikan posisi tangan lebih lebar dari bahu Anda). Pastikan postur tangan tegak lurus. Secara perlahan-lahan tarik dan arahkan alatnya melampaui kepala kemudian berhentilah di sekitaran dada. Terakhir, lemaskan tangan dan kembalilah ke posisi pertama. Lakukan terus latihan ini selama beberapa sesi dengan per sesinya minimal 5-10 kali.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Chin-Ups",
                 "description": "Chin-ups adalah salah satu latihan otot lengan paling menantang dengan menggunakan berat badan untuk melatih tubuh bagian atas, terutama latissimus dorsi dan bisep. Karena selama chin-up Anda menekuk, tubuh Anda pun menciptakan kekuatan isometrik yang melatih seluruh tubuh bagian atas dengan efektif. Berikut cara melakukan chin-up Pegang pull-up bar dengan tangan terbuka selebar bahu. Saat Anda mengembuskan napas, tarik tubuh Anda ke atas sampai kepala Anda melewati bar. Jaga agar siku tetap dekat dengan tubuh. Tahan sebentar. Kemudian, buang napas dan turunkan tubuh Anda secara perlahan ke posisi semula. Ulangi sampai selesai.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Machine Rows",
                 "description": "Gerakan “machine row” adalah salah satu latihan yang biasanya dilakukan dengan menggunakan mesin rowing. Mesin rowing adalah alat yang mensimulasikan gerakan dayung, dan ini merupakan latihan yang baik untuk melibatkan otot-otot punggung, bahu, dan lengan. Ikuti langkah berikut Duduklah di mesin rowing dengan dada menempel pada bantalan penyangga. Pegang pegangan dengan posisi tangan di atas (overhand grip) atau netral (neutral grip). Tarik pegangan ke arah tubuh dengan menarik siku ke belakang hingga pegangan berada di dekat perut. Perlahan kembalikan pegangan ke posisi awal dengan kontrol. Ulangi hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -102,19 +113,22 @@
                 "name": "Lateral Raises",
                 "description": "Gerakan lateral raises adalah salah satu latihan yang efektif untuk mengisolasi otot deltoid posterior, atau bagian belakang bahu. Berikut adalah cara melakukan lateral raise dengan benar. Berdiri dengan kaki selebar bahu. Pegang sepasang dumbel di sisi tubuh Anda dengan telapak tangan menghadap ke bawah. Pertahankan siku sedikit ditekuk. Angkat kedua lengan ke samping hingga sejajar dengan lantai. Perlahan kembali ke posisi awal. Ulangi hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Front Raises",
                 "description": "Gerakan Dumbbell Front Raises adalah latihan yang efektif untuk mengisolasi otot deltoid anterior atau bagian depan bahu. Ikuti langkah berikut, berdiri dengan kaki selebar bahu. Pegang dumbbell di depanmu dengan telapak tangan menghadap ke kaki. Pertahankan siku dan lutut sedikit tertekuk. Angkat lengan lurus di depanmu setinggi bahu. Perlahan kembali ke posisi awal. Ulangi hingga selesai.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Shoulder Press",
                 "description": "Shoulder Press, juga dikenal sebagai Overhead Press, adalah latihan kekuatan yang melibatkan mengangkat beban (free weight) dari dada ke atas kepala. Gerakan ini difokuskan pada penguatan otot-otot deltoid atau bahu. Berikut adalah teknik melakukan shoulder press. Duduklah di bangku dengan kaki rata di lantai. Pegang dumbel atau barbel di masing-masing tangan. Pegang beban di sisi tubuh Anda dengan lengan vertikal, tangan dalam genggaman netral dengan jari menghadap ke wajah Anda. Lengan dan bahu harus sedikit di depan tubuh. Kencangkan inti tubuh Anda. Saat Anda mengeluarkan napas, tekan kedua halter ke atas dan ke dalam satu sama lain. Turunkan beban kembali ke posisi awal dengan kontrol. Ulangi hingga selesai.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -126,19 +140,22 @@
                 "name": "Diamond Push-Up",
                 "description": "Anda mungkin sudah sering melakukan push-up. Namun, apakah Anda sudah pernah memvariasikan gerakan push-up Anda? Yups, salah satunya dengan melakukan diamond push-up, yang menggunakan penempatan tangan terpusat untuk pendekatan yang berbeda. Cara melakukannya seperti berikut. Ambil posisi push-up, lalu pusatkan tangan Anda ke tengah membentuk diamond. Angkat lutut Anda ke posisi plank. Jaga agar otot perut Anda tetap aktif dan biarkan siku Anda menekuk. Perlahan, turunkan dada Anda ke lantai, push dengan ekstensi penuh. Ulangi hingga selesai.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Forearm Plank",
                 "description": "Forearm plank sebenarnya hampir mirip dengan gerakan plank pada umumnya. Untuk melakukan gerakan forearm plank, kamu bisa ikuti langkah-langkah di bawah ini!Posisikan kedua lengan dan kedua jari-jari kaki menempel pada lantai untuk menopang tubuh. Tekuk kedua lutut hingga menyentuh lantai. Pastikan punggung bagian bawah dan pinggul tidak turun. Tahan selama 30 detik hingga 1 menit. Ulangin hingga selesai.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Abdominal Crunch",
                 "description": "Olahraga abdominal crunch merupakan salah satu jenis olahraga yang saat ini di gunakan oleh banyak orang di Indonesia. Jika berbicara tentang gerakan dari abdominal crunch sendiri sebenarnya sama dengan gerakan sit up biasa. Namun perbedaannya jika sit up Anda akan mengangkat seluruh punggung Anda dari posisi tidur atau berbaring ke posisi duduk, namun jika abdominal crunch ini Anda hanya mengangkat sebagian punggung Anda dan menahannya dalam jangka waktu yang sudah di tentukan dalam tahapan melakukan abdominal crunch. Olahraga ini sendiri memiliki banyak manfaat untuk tubuh, namun manfaat utamanya adalah menguatkan otot perut, paha, dan juga bahu. Adapun cara melakukan abdominal crunch adalah Posisikan tubuh berbaring telentang dengan menekuk lutut dan kaki lurus berbentuk 90 derajat. Lalu, letakkan tangan di kepala, hindari mengunci jari-jari atau mendorong kepala ke atas. Dorong punggung ke lantai. Geser dagu sedikit sehingga meninggalkan sedikit ruang antara dagu dan dada. Angkat bahu sekitar 10 cm dari lantai. Tahan sejenak, lalu perlahan-lahan kembali ke bawah. Ulangi hingga selesai",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
@@ -150,19 +167,22 @@
                 "name": "Squats",
                 "description": "Gerakan ini akan membentuk otot bokong dan kaki. Ambil sebuah barbel seberat 5 kilogram dan letakkan di pangkuan tangan di depan dada. Badan harus tegak dan perlahan-lahan menurunkan badan jongkok kebawah.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Leg Extentions Quadriceps",
                 "description": "Duduk di mesin leg extension, angkat beban dengan menekuk lutut hingga kaki lurus, kemudian turunkan kembali dengan kontrol.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             },
             {
                 "name": "Leg Extentions Hamstring",
                 "description": "Duduk atau berbaring di mesin leg curl, angkat beban dengan menekuk lutut ke arah bokong, kemudian turunkan kembali dengan kontrol.",
                 "duration": 10,
-                "finished": false
+                "finished": false,
+                "kalori": 1000
             
             }
         ]
